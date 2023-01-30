@@ -1,0 +1,43 @@
+Workouts:
+ - WorkoutName: Legs
+   Possible Muscle Groups: [Quads, Glutes, Hamstrings, Calves]
+   List:
+    - Name: Squats
+      Muscle Groups: [Quads, Glutes]
+      Sets: 6x4
+      Important: true
+    - Name: Bulgarian Split Squats
+      Muscle Groups: [Quads, Glutes] 
+      Sets: 8x3 
+      Important: true
+    - Name: Pause Squats
+      Muscle Groups: [Quads, Glutes] 
+      Sets: 6x4
+    - Name: Hamstring Curls
+      Muscle Groups: [Hamstrings]
+      Sets: 16x2
+    - Name: Weighted Calf Raises
+      Muscle Groups: [Calves]
+      Sets: Failurex3
+    - Name: Lifted Heel Squats
+      Muscle Groups: [Quads, Glutes] 
+      Sets: 15x3
+    - Name: Curtsy Squats
+      Muscle Groups: [Quads, Calves] 
+      Sets: 10x2
+    - Name: Leg Extensions
+      Muscle Groups: [Quads]
+      Sets: 15x3
+    - Name: Goblet Squat
+      Muscle Groups: [Quads, Glutes] 
+      Sets: 15x4
+    - Name: Hip Thrust
+      Muscle Groups: [Glutes]
+      Sets: 12x4
+    - Name: Romanian Deadlift
+      Muscle Groups: [Hamstrings, Glutes] 
+      Sets: 15x4
+
+Options:
+ NumberOfWorkoutsPerDay: 5
+ NumberOfDays: 5
