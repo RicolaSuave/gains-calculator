@@ -1,0 +1,38 @@
+Workouts:
+ - WorkoutName: Push
+   Possible Muscle Groups: [Chest, Triceps, Shoulders]
+   List:
+    - Name: Bench Press
+      Muscle Groups: [Chest, Triceps]
+      Sets: 3x12
+    - Name: Tricep Pushdowns
+      Muscle Groups: [Triceps]
+      Sets: 3x12
+    - Name: Push Ups
+      Muscle Groups: [Chest, Triceps, Shoulders]
+      Sets: 3xFailure
+    - Name: Overhead Shoulder Press
+      Muscle Groups: [Shoulders, Triceps]
+      Sets: 3x12
+    - Name: Arnold Press
+      Muscle Groups: [Shoulders, Triceps]
+      Sets: 3x12
+    - Name: Dumbbell Pull Over
+      Muscle Groups: [Chest, Triceps]
+      Sets: 3x12
+    - Name: Chest Fly
+      Muscle Groups: [Chest]
+      Sets: 3x12
+    - Name: Dips
+      Muscle Groups: [Triceps, Chest, Shoulders]
+      Sets: 3xFailure
+    - Name: Skull Crushers
+      Muscle Groups: [Triceps]
+      Sets: 3x12
+    - Name: Tricep Kickbacks
+      Muscle Groups: [Triceps]
+      Sets: 3x12
+
+Options:
+ NumberOfWorkoutsPerDay: 5
+ NumberOfDays: 5
