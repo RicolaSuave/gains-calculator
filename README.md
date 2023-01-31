@@ -14,12 +14,13 @@ Backend:
 
 
 # Algorithm for building schedule
-Required stuffs are there
-1. For each uncovered muscle group,
-2.   randomly pick 1 of the activities covering that muscle group that is not used yet, add it to the list
-3.   mark it as used
-4. continue until all muscle groups are covered
-5. append required stuff to our list of activities
+0. Start schedule with required exercises
+1. While we do not cover all muscle groups,
+2.   get a list of unused exercises
+3.   shuffle it
+4.   get first item and add to schedule
+5.   add onto muscle groups that we have covered, all of the muscle groups for that item
+6. make sure to cover the minimum number of wkouts/day
 
 
 
