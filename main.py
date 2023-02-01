@@ -62,7 +62,7 @@ while muscle_groups != used_muscle_groups:
         # remaining_exercises[0][0]: STR
         name = remaining_exercises[0][0]
         if exercise["Name"] == name:
-            # 5b. concatenate (add sets together) all muscle groups for that item into used_muscle_groups
+            # 5b. concatenate (add sets together) all muscle groups for that item into used_muscle_groups (union is to add distinct entries to a list)
             used_muscle_groups = used_muscle_groups.union(exercise["Muscle Groups"])
             exercise["Used"] = True
 
