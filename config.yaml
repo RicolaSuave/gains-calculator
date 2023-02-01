@@ -38,6 +38,71 @@ Workouts:
       Muscle Groups: [Hamstrings, Glutes] 
       Sets: 15x4
 
+ - WorkoutName: Push
+   Possible Muscle Groups: [Chest, Triceps, Shoulders]
+   List:
+    - Name: Bench Press
+      Muscle Groups: [Chest, Triceps]
+      Sets: 3x12
+    - Name: Tricep Pushdowns
+      Muscle Groups: [Triceps]
+      Sets: 3x12
+    - Name: Push Ups
+      Muscle Groups: [Chest, Triceps, Shoulders]
+      Sets: 3xFailure
+    - Name: Overhead Shoulder Press
+      Muscle Groups: [Shoulders, Triceps]
+      Sets: 3x12
+    - Name: Arnold Press
+      Muscle Groups: [Shoulders, Triceps]
+      Sets: 3x12
+    - Name: Dumbbell Pull Over
+      Muscle Groups: [Chest, Triceps]
+      Sets: 3x12
+    - Name: Chest Fly
+      Muscle Groups: [Chest]
+      Sets: 3x12
+    - Name: Dips
+      Muscle Groups: [Triceps, Chest, Shoulders]
+      Sets: 3xFailure
+    - Name: Skull Crushers
+      Muscle Groups: [Triceps]
+      Sets: 3x12
+    - Name: Tricep Kickbacks
+      Muscle Groups: [Triceps]
+      Sets: 3x12
+
+ - WorkoutName: Pull
+   Possible Muscle Groups: [Back, Biceps, Shoulders]
+   List:
+    - Name: Cable Rows
+      Muscle Groups: [Back, Biceps]
+      Sets: 3x16
+    - Name: Dumbbell Rows
+      Muscle Groups: [Back, Biceps]
+      Sets: 3x12
+    - Name: Lawnmowers
+      Muscle Groups: [Back, Biceps]
+      Sets: 3x12
+    - Name: Lateral Raises
+      Muscle Groups: [Shoulders]
+      Sets: 3x15
+    - Name: Front Raises
+      Muscle Groups: [Shoulders]
+      Sets: 3x15
+    - Name: Bicep Curls
+      Muscle Groups: [Biceps]
+      Sets: 4x12
+    - Name: Concentration Curls
+      Muscle Groups: [Biceps]
+      Sets: 4x12
+    - Name: Hammer Curls
+      Muscle Groups: [Biceps]
+      Sets: 4x12
+    - Name: Pulldowns
+      Muscle Groups: [Back, Biceps]
+      Sets: 3x8
+
 Options:
- NumberOfWorkoutsPerDay: 5
+ NumberOfWorkoutsPerDay: 6
  NumberOfDays: 5

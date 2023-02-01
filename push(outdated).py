@@ -1,4 +1,4 @@
-### Pull Day Generator (Chest, Triceps, Shoulders)
+### Push Day Generator (Chest, Triceps, Shoulders)
 
 import yaml
 from pprint import pprint

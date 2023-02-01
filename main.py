@@ -15,7 +15,16 @@ with open("config.yaml", "r") as file:
 # 5.   add onto muscle groups that we have covered, all of the muscle groups for that item
 # 6. make sure to cover the minimum number of wkouts/day
 
-current_workout = data["Workouts"][0]
+input_workout_type = input("Enter 'push', 'pull', or 'legs': ")
+
+if input_workout_type == "legs":
+    input_code = 0
+elif input_workout_type == "push":
+    input_code = 1
+elif input_workout_type == "pull":
+    input_code = 2
+
+current_workout = data["Workouts"][input_code]
 
 # set is a list with unique items
 muscle_groups = set(current_workout["Possible Muscle Groups"])
@@ -84,3 +93,4 @@ if len(schedule) < data["Options"]["NumberOfWorkoutsPerDay"]:
 # Done
 
 pprint(schedule)
+
